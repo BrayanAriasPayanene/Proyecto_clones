@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Fotouniverso{
+
+    height: 35px;
+    width: 35;
+
+}
+
+.Foto{
+    height: 30px;
+    width: 30px;
+}
+
+.caja_1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.caja_2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    padding-top: 10px;
+    padding-right: 15px;
+    align-items: center;
+}
+
+.img_puntos{
+    display: flex;
+    align-items: center;
+}
+
+.Google{
+    height: 200px;
+    width: 500px;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 220px;
+}
+
+
+
+
+
+
+
