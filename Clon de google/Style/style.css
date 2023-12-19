@@ -37,15 +37,111 @@
 }
 
 .Google{
+    margin-top: 200px;
+    margin-left: 680px;
     height: 200px;
     width: 500px;
 
 }
 
-main{
+.caja_4{
     display: flex;
     justify-content: center;
-    padding-top: 220px;
+    border: 2px solid rgb(253, 253, 253);
+    
+}
+
+.Caja_6{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    background-color: rgba(239, 232, 232, 0.753);
+}
+
+.Caja_5{
+    display: flex;
+    margin-top: 415px;
+    width: 1855px;
+    height: 30px;
+    align-items: center;
+    background-color: rgba(239, 232, 232, 0.753);
+}
+
+.Buscar{
+    display: flex;
+    height: 40px;
+    width: 429px;
+    border-radius: 900px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.Microfono{
+    display: flex;
+    align-items: center;
+    margin: 7px;
+}
+
+.Busquedaporimagen{
+    display: flex;
+    align-items: center;
+}
+
+.Separador{
+    display: flex;
+    width: 1150px;
+}
+
+.Caja_7{
+    display: flex;
+    margin: 5px;
+}
+
+.Caja_8{
+    display: flex;
+    margin: 5px;
+}
+
+.Caja_9{
+    display: flex;
+    margin: 10px;
+}
+
+.Caja_11{
+    display: flex;
+    margin: 10px;
+}
+
+.Caja_12{
+    display: flex;
+    margin: 10px;
+}
+
+.Caja_13{
+    display: flex;
+    margin: 5px;
+}
+
+/*.Boton{
+    padding: 10px 20px;
+    font-size: 13px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+*/
+
+.Botongoogle{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.Boton{
+    margin-right: 150px;
 }
 
 
