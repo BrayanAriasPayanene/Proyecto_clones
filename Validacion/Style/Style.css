@@ -1,0 +1,25 @@
+.validacion{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.img_1{
+    padding-left: 450px;
+    margin: 180px;
+    margin-left: 50px;
+    height: 500px;
+}
+
+
+.pruebas{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    margin-left: 160px;
+    text-align: center;
+}
