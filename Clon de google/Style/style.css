@@ -60,8 +60,8 @@
 
 .Caja_5{
     display: flex;
-    margin-top: 415px;
-    width: 1855px;
+    margin-top: 275px;
+    width: 1870px;
     height: 30px;
     align-items: center;
     background-color: rgba(239, 232, 232, 0.753);
@@ -95,7 +95,7 @@
 
 .Caja_7{
     display: flex;
-    margin: 5px;
+    margin: 1px;
 }
 
 .Caja_8{
@@ -138,14 +138,53 @@
     display: flex;
     justify-content: center;
     margin: 5px;
+    border-radius: 4px;
 }
 
 .Boton{
+    border-radius: 4px;
     margin-right: 150px;
+    font-family: arial,sans-serif;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 26px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid white;
+
 }
 
+.barra-busqueda{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 70px;
+    border: solid 1px rgb(208, 203, 203);
+    width: 650px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
 
+}
 
+.caja_3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Lupa{
+    padding-right: 10px;
+}
+
+.input{
+    height: 30px;
+    width: 530px;
+    border: none;
+    outline: none;
+}
 
 
 
