@@ -112,3 +112,25 @@
     display: flex;
     color: #ffffff;
 }
+
+.humano{
+    display: flex;
+    position: fixed;
+    top: -300px;
+    right: 0px;
+    max-height: 100%;
+    transform: translate(1020%, 0%);
+    background-color: blue;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.txt_2{
+    display: flex;
+    position: fixed;
+    top: 410px;
+    right: 0px;
+    transform: translate(280%);
+    
+}
