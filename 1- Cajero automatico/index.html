@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Boostrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!--Boostrap css-->
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header></header>
+    <main>
+        <div class="root">
+            <form id="login-form">
+              <div class="mb-3">
+                <!--colocarle a for y a id el mismo nombre-->
+                <label for="email-input" class="form-label"
+                  >Email address</label
+                >
+                
+                <input
+                
+                  type="email"
+                  class="form-control"
+                  id="email-input"
+                  aria-describedby="emailHelp"
+                />
+                <!--en el anterior a type email, podemos colocar text, par aque no pida la entrada de un correo-->
+                <!--colocarle a for y a id el mismo nombre-->
+                <div id="emailHelp" class="form-text">
+              
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="pass-input" class="form-label">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="pass-input" 
+                />
+                <!--colocarle a for y a id el mismo nombre-->  
+            </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check me out</label
+                >
+              </div>
+              <!--Al boton le daremos la funcion para ingresar-->
+              <button type="submit" id="btn-login" class="btn btn-primary">Submit</button>
+              <!--Al boton le daremos la funcion para ingresar-->
+            </form>
+          </div>
+    </main>
+    <footer></footer>
+    
+  </body>
+  <!--Boostrap script-->
+  
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./controllers/main.js"></script>
+  <!--Boostrap script-->
+</html>

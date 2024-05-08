@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/deposiaryretirar.css" />
+    <title>Home del banco</title>
+  </head>
+  <body>
+    <header><button class="boton_cerrar" id="btn-logout">CERRAR SESION</button></header>
+    <main>
+      <h2>En la siguiente casilla, ingrese el valor a retirar</h2>  
+      <input class="boton_ingresar_valor" type="number" id="num1-input" />  
+      <br />
+      <button class="boton_depositar_tamaño" id="btn-resta" type="button">Extraer</button>
+      <div>
+      <h3>Su saldo actual es de:</h3>
+      </div>
+      <div id="result">
+      </div>
+      <div id="user-info"></div>      
+    </main>
+    <footer></footer>
+  </body>
+  <script src="./controllers/retirar.js"></script>
+</html>
